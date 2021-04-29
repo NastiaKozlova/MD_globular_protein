@@ -19,7 +19,7 @@ You can alter time by changing _*num_din*_
 After this step you can find your namd script _*MD\_globular\_protein/r\_scripts/namd\_script.txt*_
 This script have to be altered to accommodate different configurations of computers. 
 
-#List of dependenses
+# List of dependenses
 
 R pacages:
 1. bio3d
