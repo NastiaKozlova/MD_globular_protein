@@ -34,8 +34,8 @@ for (part in 1:length(name)) {
   df_psfgen[1,1]<-paste0('cd ',part_start,name[part],'/MD/stabilisation/protein
   mol delete all
   package require psfgen 
-  lappend auto_path /home/nastia/programs/la1.0
-  lappend auto_path /home/nastia/programs/orient
+  lappend auto_path ',part_start,'programs/la1.0
+  lappend auto_path ',part_start,'programs/orient
   package require Orient
   namespace import Orient::orient
   resetpsf
