@@ -32,3 +32,6 @@ Programs:
 1. VMD
 2. NAMD
 3. R
+
+Extra modules for vmd: orient and la101psx
+https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/orient/
